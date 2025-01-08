@@ -1,6 +1,6 @@
 {
   "name": "@xnng/mc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个用于管理包管理器 registry 配置的命令行工具",
   "main": "index.js",
   "bin": {
@@ -12,6 +12,14 @@
   "keywords": ["npm", "yarn", "pnpm", "registry", "mirror"],
   "author": "xnng",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xnng/mc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xnng/mc/issues"
+  },
+  "homepage": "https://github.com/xnng/mc#readme",
   "devDependencies": {
     "@easyv/sync-to-mirror": "^0.0.2"
   },

@@ -1,0 +1,23 @@
+{
+  "name": "@xnng/mc",
+  "version": "1.0.0",
+  "description": "一个用于管理包管理器 registry 配置的命令行工具",
+  "main": "index.js",
+  "bin": {
+    "mc": "./bin/mc.js"
+  },
+  "scripts": {
+    "postpublish": "sync-to-mirror"
+  },
+  "keywords": ["npm", "yarn", "pnpm", "registry", "mirror"],
+  "author": "xnng",
+  "license": "MIT",
+  "devDependencies": {
+    "@easyv/sync-to-mirror": "^0.0.2"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "which": "^4.0.0"
+  }
+}
